@@ -1,0 +1,8 @@
+"""I have attempted to make a turn based survival game called Ghostly Grove. This game is designed to prompt the player for a difficulty
+rating between 1 and 10, the rating then acts as a multiplier to the number of turns that the player has to survive to win the game.
+Each player turn is simply a prompt for a cardinal direction of travel. After the player chooses a direction, the player is notionaly 
+advanced through the forest and one of several consequence options is implemented via a random int generator. One consequence involves a 5 
+point deduction of health from the players original 100 point health bar. The only way to lose the game is to lose all health before 
+completing all of the turns remaining. The player also has a chance to find gold, a chance for nothing to happen, and a chance for a 10 
+second time penalty. While there is no actual map or structure to the forest, it does recognize the most immediate previous direction, and 
+if the player repeats the last direction they took, their chance for a negative consequence is raised to 50% for that turn.""" 
